@@ -1,6 +1,6 @@
-# markovian
+# Resume
 
-> markov e generator
+> resume for me
 
 ## Build Setup
 
