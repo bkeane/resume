@@ -4,11 +4,11 @@
       <div class="container">
         <h1 class="title">
           Brendan Keane
-          <a href="https://github.com/bkeane/patterns"><icon name="github"color="white"></icon></a>
+          <a href="https://github.com/bkeane/resume"><icon name="github"color="white"></icon></a>
           <a href="https://www.linkedin.com/in/brendan-keane-37179966"><icon name="linkedin" color="white"></icon></a>
         </h1>
         <h2 class="subtitle">
-          Full Stack, DevOps-y, Automation and Test Enthusiast.
+          What should I actually say here?
         </h2>
       </div>
     </div>
