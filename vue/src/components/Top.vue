@@ -4,11 +4,13 @@
       <div class="container">
         <h1 class="title">
           Brendan Keane
-          <a href="https://github.com/bkeane/resume"><icon name="github"color="white"></icon></a>
-          <a href="https://www.linkedin.com/in/brendan-keane-37179966"><icon name="linkedin" color="white"></icon></a>
+          <div class="is-pulled-right">
+            <a href="https://github.com/bkeane/resume"><icon name="github" color="grey"></icon></a>
+            <a href="https://www.linkedin.com/in/brendan-keane-37179966"><icon name="linkedin" color="grey"></icon></a>
+          </div>
         </h1>
         <h2 class="subtitle">
-          What should I actually say here?
+          Full Stack, DevOps-y, Automation Engineer.
         </h2>
       </div>
     </div>
@@ -27,4 +29,15 @@ export default {
 </script>
 
 <style lang="css">
+.title {
+  font-size: 2.5em;
+}
+
+.fa-icon {
+  margin-left: .5em;
+  width: auto;
+  height: .75em;
+  max-width: 100%;
+  max-height: 100%;
+}
 </style>

@@ -2,9 +2,9 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <p>This resume is version controled in Github, written in VueJS, served by Sinatra,<br>
-           built with Docker in a Vagrant environment, stored on Dockerhub,<br>
-           and deployed on an ec2 instance behind an ELB with HTTPS.</p>
+          This resume is version controled in Github, written in VueJS, served by Sinatra,
+          built with Docker in a Vagrant environment, stored on Docker Hub,
+          and deployed on an ec2 instance behind an ELB using HTTPS.
       </div>
     </div>
   </footer>
@@ -16,5 +16,6 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+
 </style>
