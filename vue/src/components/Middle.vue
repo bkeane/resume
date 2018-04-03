@@ -2,7 +2,27 @@
   <div class="container">
     <div class="content">
       <div class="columns">
+        <div class="column">
+          <h3>Education</h3>
+          <ul>
+            <li>2012 UCSB | Philosophy{{ " & " }}Mathematics</li>
+            <li>2005 The Thacher School</li>
+          </ul>
+        </div>
+      </div>
+      <div class="columns">
         <div class="column is-three-fifths">
+          <h3>Values</h3>
+          <ul>
+            <li>DRY: Don't Repeat Yourself.</li>
+            <li>RDD: Readme Driven Development.</li>
+            <li>An API is a testable agreement.</li>
+            <li>Write tests now, not later.</li>
+            <li>Readability > Low LOC > Performance.</li>
+            <li>Optimize for performance only after the problem is well understood.</li>
+            <li>Leave it cleaner than when you arrived.</li>
+            <li>Thriving is a group activity.</li>
+          </ul>
           <h3 class="header">Experience</h3>
           <ul>
             <li>Cloud Infrastructure: hybrid cloud, vpn, firewalling, VM's, containers, storage.</li>
@@ -22,21 +42,9 @@
             <li>Network Engineering in Caracas, VZ.</li>
             <li>Management of multiple interns, with successful and happy outcomes.</li>
           </ul>
-          <h3>Engineering Values</h3>
-          <ul>
-            <li>DRY: Don't Repeat Yourself.</li>
-            <li>RDD: Readme Driven Development.</li>
-            <li>An API is a testable agreement.</li>
-            <li>Write tests now, not later.</li>
-            <li>Readability > Low LOC > Performance.</li>
-            <li>Optimize for performance only after the problem is well understood.</li>
-            <li>Leave it cleaner than when you arrived.</li>
-            <li>Thriving is a group activity.</li>
-          </ul>
         </div>
         <div class="column is-two-fifths">
-          <h3>Technologies</h3>
-          <h4>Broad</h4>
+          <h3>Tools</h3>
           <ul>
             <li>Ruby</li>
             <li>NodeJS</li>
@@ -48,7 +56,7 @@
             <li>Network: L2, L3, firewall, DNS</li>
             <li>Bash, Powershell</li>
           </ul>
-          <h4>Narrow(er)</h4>
+          <h3></h3>
           <ul>
             <li>Sinatra, Roda, Praxis</li>
             <li>ActiveRecord, Sequel</li>
@@ -74,6 +82,6 @@ export default {
 
 <style lang="css">
 li {
-  list-style: circle;
+  list-style: none;
 }
 </style>
