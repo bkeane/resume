@@ -29,7 +29,7 @@
             <li>Bare-metal Infrastructure: rack equipment of all kinds.</li>
             <li>Automation of tasks generally considered un-automatable.</li>
             <li>Development of RESTful APIs for demo, test, and production purposes.</li>
-            <li>Front-end Development for marketing and API reprisentation/interaction.</li>
+            <li>Front-end Development for marketing and API representation/interaction.</li>
             <li>Development and deployment of automation to hundreds of production machines in parallel.</li>
             <li>Design and implementation of Docker based CI/CD pipeline for telco grade services.</li>
             <li>Network hardware validation through automated packet inspection.</li>
