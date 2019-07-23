@@ -38,8 +38,13 @@ resource "aws_s3_bucket" "www" {
   bucket = "${local.domain}"
   acl    = "public-read"
   policy = data.aws_iam_policy_document.public.json
+
   website {
     index_document = "index.html"
+  }
+
+  versioning {
+    enabled = true
   }
 }
 
@@ -66,7 +71,7 @@ resource "aws_cloudfront_distribution" "www_distribution" {
     cached_methods         = ["GET", "HEAD"]
     target_origin_id       = "${local.domain}"
     min_ttl                = 0
-    default_ttl            = 86400
+    default_ttl            = 0
     max_ttl                = 31536000
 
     forwarded_values {
