@@ -1,6 +1,6 @@
-# Resume
+# vue2
 
-> resume for me
+> resume
 
 ## Build Setup
 

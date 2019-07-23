@@ -1,8 +1,8 @@
 {
-  "name": "resume",
-  "description": "resume for foraging",
+  "name": "vue2",
+  "description": "resume",
   "version": "1.0.0",
-  "author": "Brendan Keane",
+  "author": "Brendan Keane <btkeane@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -10,9 +10,9 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "bulma": "^0.6.2",
+    "bulma": "^0.7.5",
     "vue": "^2.5.11",
-    "vue-awesome": "^2.3.4"
+    "vue-awesome": "^3.5.4"
   },
   "browserslist": [
     "> 1%",

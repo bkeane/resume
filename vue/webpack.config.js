@@ -48,17 +48,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true,
-    proxy: [
-        {
-          path: `/api/*`,
-          target: 'http://localhost:9292'
-        },
-        {
-          path: `/message-bus`,
-          target: 'http://localhost:9292'
-        }
-    ]
+    overlay: true
   },
   performance: {
     hints: false

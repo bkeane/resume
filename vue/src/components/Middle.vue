@@ -44,15 +44,16 @@
           </ul>
         </div>
         <div class="column is-two-fifths">
-          <h3>Tools</h3>
+          <h3>Tools {{" & "}}Tech</h3>
           <ul>
+            <li>Terraform</li>
             <li>Ruby</li>
             <li>NodeJS</li>
             <li>Browser-side Javascript</li>
             <li>HTML, CSS</li>
             <li>RESTful, streaming</li>
             <li>Slackbots</li>
-            <li>AWS: API, S3, EC2, others</li>
+            <li>AWS: S3, RDS, EC2, Athena, EMR, and more</li>
             <li>Network: L2, L3, firewall, DNS</li>
             <li>Bash, Powershell</li>
           </ul>
@@ -66,6 +67,7 @@
             <li>Vagrant, Docker, VMWare, Virtualbox</li>
             <li>PXE, DNSMasq, IPTables, Curl</li>
             <li>GitHub, GitLab, Git</li>
+            <li>Codeship</li>
             <li>Postman</li>
           </ul>
         </div>

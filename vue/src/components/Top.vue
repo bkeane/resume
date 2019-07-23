@@ -5,8 +5,8 @@
         <h1 class="title">
           Brendan Keane
           <div class="is-pulled-right">
-            <a href="https://github.com/bkeane/resume"><icon name="github" color="grey"></icon></a>
-            <a href="https://www.linkedin.com/in/brendan-keane-37179966"><icon name="linkedin" color="grey"></icon></a>
+            <a href="https://github.com/bkeane/resume"><Icon name="brands/github" color="grey"></Icon></a>
+            <a href="https://www.linkedin.com/in/brendan-keane-37179966"><Icon name="brands/linkedin" color="grey"></Icon></a>
           </div>
         </h1>
         <h2 class="subtitle">
@@ -19,10 +19,11 @@
 
 <script>
 import Icon from 'vue-awesome/components/Icon'
+import 'vue-awesome/icons'
 
 export default {
   name: 'top',
-  components : {
+  components: {
     Icon
   }
 }
