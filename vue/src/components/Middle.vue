@@ -44,28 +44,34 @@
           </ul>
         </div>
         <div class="column is-two-fifths">
-          <h3>Tools {{" & "}}Tech</h3>
+          <h3>Languages</h3>
           <ul>
             <li>Terraform</li>
             <li>Ruby</li>
-            <li>NodeJS</li>
-            <li>Browser-side Javascript</li>
+            <li>Python</li>
+            <li>Javascript (Browser {{"&"}} Node)</li>
             <li>HTML, CSS</li>
-            <li>RESTful, streaming</li>
-            <li>Slackbots</li>
-            <li>AWS: S3, RDS, EC2, Athena, EMR, and more</li>
-            <li>Network: L2, L3, firewall, DNS</li>
-            <li>Bash, Powershell</li>
+            <li>Bash</li>
+            <li>Powershell</li>
           </ul>
-          <h3></h3>
+          <h3>Domains</h3>
+          <ul>
+            <li>AWS</li>
+            <li>REST</li>
+            <li>Networking</li>
+            <li>OAuth</li>
+            <li>SPA</li>
+            <li>Linux / Windows</li>
+          </ul>
+          <h3>Tech I Like</h3>
           <ul>
             <li>Sinatra, Roda, Praxis</li>
-            <li>ActiveRecord, Sequel</li>
+            <li>Slack{{ " & " }}Slackbots</li>
+            <li>Sequel, ActiveRecord, Orator</li>
             <li>Mechanize, Nokogiri, Pry, HTTParty, Erb, Message-Bus</li>
-            <li>Express, Socket.io</li>
-            <li>VueJS, Vue-router, Vuex, Axios, NPM, Webpack</li>
-            <li>Vagrant, Docker, VMWare, Virtualbox</li>
-            <li>PXE, DNSMasq, IPTables, Curl</li>
+            <li>VueJS</li>
+            <li>Vagrant, Docker</li>
+            <li>PXE, DNSMasq</li>
             <li>GitHub, GitLab, Git</li>
             <li>Codeship</li>
             <li>Postman</li>

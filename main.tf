@@ -70,6 +70,9 @@ resource "aws_cloudfront_distribution" "www_distribution" {
     allowed_methods        = ["GET", "HEAD"]
     cached_methods         = ["GET", "HEAD"]
     target_origin_id       = "${local.domain}"
+    # Setting cache to 0 ttl.
+    # Barring use of a versioning strategy or having high traffic,
+    # this makes deployment of new content easier by disabling caching.
     min_ttl                = 0
     default_ttl            = 0
     max_ttl                = 31536000
@@ -99,7 +102,6 @@ resource "aws_cloudfront_distribution" "www_distribution" {
   }
 }
 
-// This Route53 record will point at our CloudFront distribution.
 resource "aws_route53_record" "www" {
   zone_id = "Z3KSRGBQ1IJ110"
   name    = "${local.domain}"
