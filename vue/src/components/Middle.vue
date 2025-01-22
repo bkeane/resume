@@ -15,13 +15,13 @@
           <h3>Values</h3>
           <ul>
             <li>DRY: Don't Repeat Yourself.</li>
-            <li>RDD: Readme Driven Development.</li>
-            <li>An API is a testable agreement.</li>
+            <li><a href="https://tom.preston-werner.com/2010/08/23/readme-driven-development.html">RDD: Readme Driven Development.</a></li>
+            <li><a href="https://martinfowler.com/bliki/StranglerFigApplication.html">An API is a testable agreement.</a></li>
             <li>Write tests now, not later.</li>
             <li>Readability > Low LOC > Performance.</li>
             <li>Optimize for performance only after the problem is well understood.</li>
             <li>Leave it cleaner than when you arrived.</li>
-            <li>Thriving is a group activity.</li>
+            <li><a href="https://fs.blog/hunter-s-thompson-to-hume-logan/">Dear Hume</a><small> - Hunter S. Thompson</small></li>
           </ul>
           <h3 class="header">Experience</h3>
           <ul>
@@ -46,6 +46,7 @@
         <div class="column is-two-fifths">
           <h3>Languages</h3>
           <ul>
+            <li>Go</li>
             <li>Terraform</li>
             <li>Ruby</li>
             <li>Python</li>
@@ -65,16 +66,17 @@
           </ul>
           <h3>Tech I Like</h3>
           <ul>
-            <li>Sinatra, Roda, Praxis</li>
-            <li>Slack{{ " & " }}Slackbots</li>
-            <li>Sequel, ActiveRecord, Orator</li>
-            <li>Mechanize, Nokogiri, Pry, HTTParty, Erb, Message-Bus</li>
+            <li>AWS Lambda</li>
+            <li>OCI</li>
+            <li>FastAPI, Pydantic</li>
+            <li>Goa</li>
+            <li>Shellspec, Pytest, Rspec</li>
             <li>VueJS</li>
             <li>Vagrant, Docker</li>
             <li>PXE, DNSMasq</li>
             <li>GitHub, GitLab, Git</li>
-            <li>Codeship</li>
-            <li>Postman</li>
+            <li>Github Actions</li>
+            <li>Auth0</li>
           </ul>
         </div>
       </div>
