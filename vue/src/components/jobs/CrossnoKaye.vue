@@ -5,7 +5,7 @@
           <p>
             <strong>Senior Infrastructure Engineer</strong> | CrossnoKaye - <small>May 2023 - present</small>
             <br>
-            In this role I am responsible for the architecture and implementation of a secure IoT platform serving the delivery of industrial controls systems software to the edge.
+            Architecting network security, connectivity, configuration management, identity management and continuous software delivery for the Industrial IoT edge.
             </p>
         </div>
       </div>

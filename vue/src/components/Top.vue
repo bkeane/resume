@@ -10,7 +10,7 @@
           </div>
         </h1>
         <h2 class="subtitle">
-          Full Stack, DevOps-y, Automation Engineer.
+          Full Stack Infrastructure Engineer.
         </h2>
       </div>
     </div>
